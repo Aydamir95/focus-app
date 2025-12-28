@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusApp</string>
+    <string name="accessibility_service_description">FocusApp needs accessibility permission to monitor and block apps during focus sessions.</string>
+    
+    <!-- Focus Modes -->
+    <string name="mode_full">Block All Apps</string>
+    <string name="mode_selective_block">Block Selected Apps</string>
+    <string name="mode_selective_allow">Allow Only Selected Apps</string>
+    <string name="mode_off">Tracking Only</string>
+    
+    <!-- UI Strings -->
+    <string name="start_focus">Start Focus Session</string>
+    <string name="stop_focus">Stop Focus Session</string>
+    <string name="unblock_attempts">Unblock Attempts: %1$d</string>
+    <string name="screen_time">Screen Time: %1$s</string>
+    <string name="focus_time">Focus Time: %1$s</string>
+    
+    <!-- Stats -->
+    <string name="today_stats">Today\'s Stats</string>
+    <string name="weekly_stats">Weekly Stats</string>
+    <string name="total_focus_time">Total Focus Time</string>
+    <string name="unlock_resistance">Unlock Resistance</string>
+    <string name="current_streak">Current Streak</string>
+    
+    <!-- Friends -->
+    <string name="add_friend">Add Friend</string>
+    <string name="friends">Friends</string>
+    <string name="currently_focusing">Currently Focusing</string>
+    <string name="not_focusing">Not Focusing</string>
+    
+    <!-- Permissions -->
+    <string name="permission_usage_stats">Please grant Usage Stats permission</string>
+    <string name="permission_overlay">Please grant Overlay permission</string>
+    <string name="permission_accessibility">Please enable Accessibility Service</string>
+</resources>
+
+
+

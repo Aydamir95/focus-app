@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#808080</color>
+    <color name="beige">#F5F5DC</color>
+    
+    <color name="grey_light">#E0E0E0</color>
+    <color name="grey_dark">#404040</color>
+    <color name="beige_dark">#E8E8D8</color>
+    
+    <color name="primary">#000000</color>
+    <color name="primary_dark">#000000</color>
+    <color name="accent">#808080</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F5F5DC</color>
+</resources>
+
+
+

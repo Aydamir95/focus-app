@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Timer Display -->
+        <TextView
+            android:id="@+id/timerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:text="00:00:00"
+            android:textColor="@color/black"
+            android:textSize="64sp"
+            android:textStyle="bold" />
+
+        <!-- Mode Selection -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Blocking Mode"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/modeRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/radioFull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Block All Apps"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/radioSelectiveBlock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Block Selected Apps (Top 3)"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/radioSelectiveAllow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="Allow Only Selected Apps (Top 3)"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/radioOff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tracking Only"
+                android:textColor="@color/black" />
+
+        </RadioGroup>
+
+        <!-- Control Buttons -->
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/black"
+            android:padding="16dp"
+            android:text="Start Focus Session"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="@color/grey"
+            android:enabled="false"
+            android:padding="16dp"
+            android:text="Stop Focus Session"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <!-- Stats Display -->
+        <TextView
+            android:id="@+id/screenTimeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Screen Time: 00:00:00"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/unblockAttemptsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unblock Attempts: 0"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
